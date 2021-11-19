@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Threading;
 using UnityEngine;
 using Assets.Classes;
+using System;
 
 public class MetricsController : MonoBehaviour
 {
@@ -29,6 +30,7 @@ public class MetricsController : MonoBehaviour
 
     public void SendMetrics()
     {
+        // Database connection will go here
         System.Console.Write("User Metrics Sent");
     }
 }
