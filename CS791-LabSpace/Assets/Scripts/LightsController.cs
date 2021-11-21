@@ -30,7 +30,5 @@ public class LightsController : MonoBehaviour
             lamp.GetComponent<Light>().intensity = lightIntensity;
         }
     }
-
-
 }
 
